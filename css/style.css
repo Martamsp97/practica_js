@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+:root {
+    --primary-color: var(--primary-color);
+    --secondary-color: var(--secondary-color);
+    --primary-font: ;
+    --text-content: #;
+    --gap: 1rem;
+}
