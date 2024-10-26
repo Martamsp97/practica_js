@@ -1,4 +1,6 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,10 +16,14 @@ img {
     display: block;
 }
 
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
 :root {
     --primary-color: var(--primary-color);
     --secondary-color: var(--secondary-color);
-    --primary-font: ;
+    --title-font: "Unbounded", sans-serif;
     --text-content: #;
     --gap: 1rem;
 }
